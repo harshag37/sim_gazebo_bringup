@@ -23,7 +23,7 @@
  <ul display:block;style="font-family:verdana">
     <li>cd ~</li>
     <li>mkdir -p robocon_ws/src && cd robocon_ws/src</li>
-    <li>git clone https://github.com/pr-db/sim_gazebo_bringup.git -b aim</li>
+    <li>git clone https://github.com/harshag37/sim_gazebo_bringup.git-b aim</li>
     <li>cd ~/robocon_ws</li>
     <li>colcon build --packages-select sim_gazebo_bringup --symlink-install</li>
     <li>echo "source /home/$USER/robocon_ws/install/setup.bash" >> ~/.bashrc</li>
