@@ -27,7 +27,7 @@
 			},
 			"ros2_repo_2":{
 				"repo": "git@github.com:pr-db/track_follow.git",
-				"version": "master",
+				"version": "PID",
 				"build_package": "track_follow",
 				"build_prefix": "--packages-select",
 				"build_postfix": "--symlink-install"
