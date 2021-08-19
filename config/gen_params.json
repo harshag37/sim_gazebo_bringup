@@ -86,12 +86,7 @@
 			"executable": "line_follower",
 			"name": "line_follower_0",
 			"output": "screen",
-			"parameters": [	{"start_delay": 5.0},
-							{"camera_vector_topic": "/cupcar0/PixyVector"},
-							{"linear_velocity": 2.0},
-							{"angular_velocity": -0.8},
-							{"single_line_steer_scale": 0.6}
-						]
+			"parameters": []
 		}
 	},
 	"world_params": {
