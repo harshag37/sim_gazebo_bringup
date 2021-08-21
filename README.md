@@ -8,6 +8,20 @@
 </div>
 <div class="installation">
 <h3 display: block;>Installing ROS2</h3>
+  <h3> Setting up SSH keys</h3>
+  <p>To use Gazebo, you will need to have a GitHub account. The installation scripts require a GitHub account with an SSH key.</p>
+  <h4>To create an SSH key, run the following in a terminal:<h4>
+    <li>ssh-keygen</li>
+    <li>sudo apt install xclip git</li>
+   <li>xclip -sel clip < ~/.ssh/id_rsa.pub</li>
+     <h4>Adding your SSH key to GitHub</h4>
+     <p>  Next, you'll want to install xclip. This program will allow you to copy the contents of the id_rsa.pub file to your clipboard so you can paste it into GitHub. To install xclip, run the following command:  
+$ sudo apt install xclip git
+Once you've installed xclip, you need to copy the id_rsa.pub file to your clipboard. To do so, run the following command:
+$ xclip -sel clip < ~/.ssh/id_rsa.pub
+Adding your SSH key to GitHub
+Now, log into your GitHub account and paste your SSH key. The SSH key field is located in your account settings under "SSH and GPG keys". Add a new SSH key by pressing "New SSH key" and pasting your SSH key in the box. Make sure to give it a name!</p>
+       
 <h4>You need to download this file inorder to install the ROS</h4>
 <a href="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MWeiLnwrIKZJWLFsXhf%2F-MXcfaeFblmznqth_0fk%2F-MXcgSRrBPzq5-K6O-C5%2Ffoxy_install_aim.sh?alt=media&token=2adf3a55-8463-4ff1-890e-67b6d32fe747">Click here to download</a>
   <h5>RUN THE FOLLOWING COMMANDS</h5>
